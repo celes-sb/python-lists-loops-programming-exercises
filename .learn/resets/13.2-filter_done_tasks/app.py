@@ -12,8 +12,4 @@ tasks = [
 
 
 #Your code go here:
-def filter_task(task):
-	return task['done']
 
-updated_tasks = list(filter(filter_task, tasks))
-print(updated_tasks)

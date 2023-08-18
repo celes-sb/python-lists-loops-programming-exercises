@@ -1,4 +1,3 @@
-import re
 
 names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan','Sophia',
 'Benjamin','Mia','Mason','Charlotte','Elijah','Amelia','Oliver','Evelyn','Jacob','Abigail',
@@ -8,8 +7,3 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 
 #Your code go here:
-def filter_am(name):
-    return 'am' in name.lower()
-
-list_am = list(filter(filter_am, names))
-print(list_am)
